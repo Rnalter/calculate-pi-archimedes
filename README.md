@@ -17,5 +17,7 @@ Circumference of hexagon = 1 * 6 = 6
 
 Diamater of hexagon/circle = 1 * 2 = 2
 
-Hence ratio = 6/2 = 3
+Hence ratio π > 6/2 = 3. (why greater? as hexagon hasn't completely covered the whole area in the circle)
+
+
 
