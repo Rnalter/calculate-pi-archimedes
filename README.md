@@ -72,3 +72,29 @@ and rest values follow the same above approach
 # Pythonic way to calculate PI ratio
 
 
+```
+import math
+N = float(6)
+S = float(1)
+
+#Iterating uptil N is 96 sides 
+for i in range(2,7):
+    d = math.sqrt(1 - pow(S/2,2))
+    a = 1 - d
+    NewS = math.sqrt(pow(a,2) + pow(S/2,2))
+    Perimeter = float(N * S)
+    Pi = Perimeter/2
+    print(Pi)
+    S = NewS
+    N = N*2.0
+```
+
+
+The results we get are as follows
+```
+3.0
+3.10582854123
+3.13262861328
+3.13935020305
+3.14103195089
+```
